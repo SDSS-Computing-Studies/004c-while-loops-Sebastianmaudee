@@ -20,8 +20,17 @@ Example:
 10
 ...
 """
+
 value = 0
 
-incorrectvalue = True
-    if value != 20
-    print()
+
+
+
+
+
+
+
+
+while value != 20:
+    value = value +2
+    print(value)
