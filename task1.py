@@ -20,3 +20,8 @@ Example:
 10
 ...
 """
+value = 0
+
+incorrectvalue = True
+    if value != 20
+    print()
