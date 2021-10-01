@@ -29,3 +29,14 @@ Access granted
 
 
 """
+
+username = input("enter username")
+username.strip()
+password = input("enter password")
+password.strip()
+
+
+
+if username != "admin":
+    print("access denied")
+else: print ("access granted")
