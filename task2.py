@@ -31,15 +31,68 @@ Access granted
 """
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 username = ""
-password = ""
-
-
-
-
+passkey = ""
 while username != "admin":
-    username = input("Enter username").strip()
-    username != "admin":
-while password != "12345":
-    password = input("Enter password").strip()
-    
+    while passkey != "12345":
+        username = input("Enter username").strip()
+        passkey = input("Enter password").strip()
+        if username != "admin":
+            if passkey != "12345":
+                print("Access denied")
+print("access granted")
