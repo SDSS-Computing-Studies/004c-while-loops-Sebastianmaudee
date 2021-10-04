@@ -95,4 +95,4 @@ while username != "admin":
         if username != "admin":
             if passkey != "12345":
                 print("Access denied")
-print("access granted")
+print("Access granted")
